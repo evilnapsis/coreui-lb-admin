@@ -29,21 +29,21 @@ if($found==true) {
 	$_SESSION['user_id']=$userid ;
 	// Si todo sale bien
 	print "Cargando ... $user";
-	Core::redir("./?view=home");
+	Core::redir("./");
 }else {
 	// Si la contrase~a es incorrecta
 	//Core::redir("./?view=login");
 }
 }else{
 	// si ya esta logeado
-	Core::redir("./?view=home");	
+	Core::redir("./");	
 }
 
 }
 if(isset($_GET["opt"]) && $_GET["opt"]=="logout"){
 	unset($_SESSION);
 	session_destroy();
-	Core::redir("./?view=home");
+	Core::redir("./");
 }
 
 ?>

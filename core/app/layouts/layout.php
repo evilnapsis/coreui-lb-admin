@@ -36,12 +36,11 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Vendors styles-->
     <link rel="stylesheet" href="vendors/simplebar/css/simplebar.css">
-    <link rel="stylesheet" href="css/vendors/simplebar.css">
+    <link rel="stylesheet" href="assets/css/vendors/simplebar.css">
     <!-- Main styles for this application-->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <!-- We use those styles to show code examples, you should remove them in your application.-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css">
-    <link href="css/examples.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/bootstrap-icons/bootstrap-icons.css">
 
     <link href="vendors/@coreui/chartjs/css/coreui-chartjs.css" rel="stylesheet">
@@ -98,11 +97,11 @@
 <div class="sidebar-brand d-none d-md-flex">
 <div class="sidebar-brand-full" width="118" height="46" alt="CoreUI Logo">
 
-<h4><b>COREUI LEGO</b></h4>
+<h4><a href="./" style="color: white;"><b>COREUI LEGO</b></a></h4>
 
 </div>
 <div class="sidebar-brand-narrow" width="46" height="46" alt="CoreUI Logo">
-<h4><b>CO</b></h4>
+<h4><a href="./" style="color: white;"><b>CO</b></a></h4>
 
 </div>
 </div>
@@ -179,7 +178,7 @@
           </ul>
           <ul class="header-nav ms-3">
             <li class="nav-item dropdown"><a class="nav-link py-0" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/8.jpg" alt="user@email.com"></div>
+                <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/user.png" alt="user@email.com"></div>
               </a>
               <div class="dropdown-menu dropdown-menu-end pt-0">
                 <div class="dropdown-header bg-light py-2">
@@ -228,7 +227,7 @@
     <script src="vendors/chart.js/js/chart.min.js"></script>
     <script src="vendors/@coreui/chartjs/js/coreui-chartjs.js"></script>
     <script src="vendors/@coreui/utils/js/coreui-utils.js"></script>
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
     <script>
     </script>
 
